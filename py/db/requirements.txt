@@ -1,0 +1,2 @@
+-r ./mongo/requirements.txt
+-r ./sqlite/requirements.txt

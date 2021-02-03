@@ -1,0 +1,2 @@
+# -r ./lambda/_requirements.txt # to be used as a local package (e.g. save in module rather than as a .env import)
+-r ./s3/requirements.txt
