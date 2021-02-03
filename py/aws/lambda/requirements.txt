@@ -1,5 +1,0 @@
-# To install dependencies to zip later run `pip install --target ./package -r requirements.txt --upgrade --system`.
-# - `--system` flag is required on Debian based systems.
-# - We save dependencies into the `./package` folder for organization and can import packages like so: ``.
-
-Pillow==6.2.0
