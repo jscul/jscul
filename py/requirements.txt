@@ -1,4 +1,0 @@
--r ./microframework/requirements.txt
--r ./webcrawler/requirements.txt
--r ./db/requirements.txt
--r ./aws/requirements.txt
