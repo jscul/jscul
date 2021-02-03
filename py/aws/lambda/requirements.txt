@@ -2,4 +2,4 @@
 # - `--system` flag is required on Debian based systems.
 # - We save dependencies into the `./package` folder for organization and can import packages like so: ``.
 
-Pillow==6.2.0
+Pillow==7.1.0
