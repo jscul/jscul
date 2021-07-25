@@ -1,21 +1,21 @@
 # Uses python3
 # https://www.youtube.com/watch?v=eL-KzMXSXXI&ab_channel=WilliamFiset
 
-# import sys
+import sys
 
 
-# def dfs(adj, x, seen):
+def dfs(adj, x, seen):
 
-#     for edge in adj[x]:
+    for edge in adj[x]:
 
-#         if edge in seen:
-#             return 1
+        if edge in seen:
+            return 1
 
-#         seen.add(edge)
-#         if dfs(adj, edge, seen) == 1:
-#             return 1
+        seen.add(edge)
+        if dfs(adj, edge, seen) == 1:
+            return 1
 
-#     return 0
+    return 0
 
 
 def acyclic(adj):
