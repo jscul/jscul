@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN apt upgrade
 RUN apt update
-RUN apt-get install -y wget
+RUN apt-get install -y wget gnupg software-properties-common
 
 # install CUDA
 
@@ -17,6 +17,8 @@ RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/
 RUN add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /"
 RUN apt-get -y update
 RUN apt-get -y install cuda
+
+# install CUDNN
 
 # install opencv
 
@@ -84,7 +86,7 @@ RUN cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D OPENCV_ENABLE_NONFREE=ON \
   -D OPENCV_PYTHON3_INSTALL_PATH=~/.virtualenvs/cv/lib/python3.8/site-packages \
   -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python \
-  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-4.5.2/modules \
+  -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.5.2/modules \
   -D INSTALL_PYTHON_EXAMPLES=OFF \
   -D INSTALL_C_EXAMPLES=OFF \
   -D BUILD_EXAMPLES=OFF ..
