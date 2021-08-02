@@ -8,20 +8,18 @@ from cv2 import dnn_superres
 count = cv2.cuda.getCudaEnabledDeviceCount()
 print(count)
 
-exit()
-
 # Create an SR object
 sr = dnn_superres.DnnSuperResImpl_create()
 
 # Read image
-image = cv2.imread("frame0.jpg")
+image = cv2.imread("./acozlzkz.png")
 
 # Read the desired model
 path = "EDSR_x4.pb"
 sr.readModel(path)
 
 # Set the desired model and scale to get correct pre- and post-processing
-sr.setModel("edsr", 2)
+sr.setModel("edsr", 3)
 
 # Upscale the image
 a = datetime.datetime.now()
