@@ -8,6 +8,12 @@
 
 [Random Photo Generator](https://picsum.photos/) / [Crontab](https://crontab.guru/#0_0_*_*_0)
 
+### PORTFOLIOS I LIKE
+
+https://trekhleb.dev
+https://sjmulder.nl/en/textonly.html
+https://alexsocha.github.io/pynode/
+
 ### COMMON COMMANDS 🤖
 
 `🤖`
