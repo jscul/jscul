@@ -2,7 +2,7 @@
 
 ### SKILLS
 
-![Python3](https://img.shields.io/badge/Python3-green) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue) ![Linux](https://img.shields.io/badge/Linux-black)
+![Python3](https://img.shields.io/badge/Python-3.9-green) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue) ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange)
 
 ### RANDOM LINKS 🔗
 
