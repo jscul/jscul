@@ -14,4 +14,4 @@ https://trekhleb.dev
 
 ### IP Util 🤖
 
-<!-- ![ip service](https://useragent-flask-vr242ulasq-uw.a.run.app/) -->
+![ip service](https://useragent-flask-vr242ulasq-uw.a.run.app/)
