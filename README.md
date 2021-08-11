@@ -12,8 +12,6 @@
 
 https://trekhleb.dev
 
-### COMMON COMMANDS 🤖
-
-`🤖`
+### IP Util 🤖
 
 ![ip service](https://useragent-flask-vr242ulasq-uw.a.run.app/)
