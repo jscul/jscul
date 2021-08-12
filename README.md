@@ -12,6 +12,6 @@
 
 https://trekhleb.dev
 
-### IP Util 🤖
+### Check it out, I built a moon calendar with OpenCV, FastAPI, Google Cloud Run 🌙
 
 ![ip service](https://useragent-flask-vr242ulasq-uw.a.run.app/)
