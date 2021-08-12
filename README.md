@@ -10,7 +10,7 @@
 
 ### PORTFOLIOS I LIKE
 
-https://trekhleb.dev
+https://trekhleb.dev / https://brittanychiang.com/
 
 ### I built a dynamically updating moon-calendar 🌙
 
