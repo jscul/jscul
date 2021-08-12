@@ -15,4 +15,4 @@ https://trekhleb.dev
 ### I built a dynamically updating moon-calendar 🌙
 
 ![ip service](https://useragent-flask-vr242ulasq-uw.a.run.app/)
-[[moon-calendar]](https://useragent-flask-vr242ulasq-uw.a.run.app/) OpenCV, Flask, Google Cloud Run
+[[moon-calendar]](https://github.com/jscul/moon-calendar) OpenCV, Flask, Google Cloud Run
