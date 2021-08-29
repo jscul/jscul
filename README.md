@@ -19,4 +19,6 @@ https://trekhleb.dev / https://brittanychiang.com/
 
 ### COMMANDS
 
+Setup environment: `python3 -m venv env && source env/bin/activate && pip install -r requirements.txt`
+
 Merging directories: `rsync -a -P ./*/ /home/jscul/test`
