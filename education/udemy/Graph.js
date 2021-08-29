@@ -1,4 +1,4 @@
-const Heap = require('./Heap');
+const Heap = require("./Heap");
 
 class Graph {
 	constructor() {
@@ -28,7 +28,7 @@ class Graph {
 		yield* this.dfs();
 	}
 
-	*dfs(v = '123') {
+	*dfs(v = "123") {
 		let stack = [v];
 		let seen = new Set();
 
@@ -42,7 +42,7 @@ class Graph {
 		}
 	}
 
-	*bfs(v = '123') {
+	*bfs(v = "123") {
 		let stack = [v];
 		let seen = new Set();
 
@@ -57,30 +57,20 @@ class Graph {
 	}
 
 	*dijkstra(start, finish) {
-		let stack = [v];
-		let seen = new Set();
-
-		while (stack.length) {
-			const v = stack.shift();
-			seen.add(v);
-			for (const [vertex, adjacencies] of this.map.get(v)) {
-				if (!seen.has(vertex)) stack.push(vertex);
-			}
-			yield v;
-		}
+		// TODO
 	}
 }
 
 (async () => {
 	const g = new Graph();
-	g.addVertex('123');
-	g.addVertex('124');
-	g.addVertex('125');
+	g.addVertex("123");
+	g.addVertex("124");
+	g.addVertex("125");
 	const test = {name: `126`};
 	g.addVertex(test);
-	g.addEdge('123', '124', {w: 4});
-	g.addEdge('125', '124');
-	g.addEdge('125', test);
+	g.addEdge("123", "124", {w: 4});
+	g.addEdge("125", "124");
+	g.addEdge("125", test);
 
 	console.log(g);
 

@@ -39,5 +39,5 @@ const decryptFile = (fileName) => {
 	});
 };
 
-// encryptFile();
-decryptFile(`b6583778c28fcff7a3f962564ce6a516.encrypted`);
+encryptFile();
+// decryptFile(`b6583778c28fcff7a3f962564ce6a516.encrypted`);

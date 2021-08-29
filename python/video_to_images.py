@@ -13,5 +13,4 @@ def to_frames(video_path, dir_path, start_at=0, end_at=None):
 
 
 if __name__ == "__main__":
-
     to_frames("./JSC_4754.MOV", "./images", end_at=1)
