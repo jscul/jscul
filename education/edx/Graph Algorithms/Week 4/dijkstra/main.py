@@ -21,10 +21,18 @@ def dijkstra(adj, cost, s, t):
     while not q.empty():
 
         n = q.get()
+        # print(n)
 
         edges = []
         for i, adjacent in enumerate(adj[n]):
-            edges.append((adjacent, cost[n][i] + dist[n]))
+            edges.append([adjacent, cost[n][i]])
+
+        for i, edge in enumerate(edges):
+            d = dist[n] + edge[1]
+            if d < dist[edge[0]]:
+                dist[edge[0]] = d
+                edge[1] = d
+                prev[edge[0]] = n
 
         edges = sorted(edges, key=lambda x: x[1])
         for (e, w) in edges:
@@ -32,11 +40,9 @@ def dijkstra(adj, cost, s, t):
                 seen.add(e)
                 q.put(e)
 
-            if w < dist[e]:
-                dist[e] = w
-                prev[e] = n
+        # print(dist)
 
-    # pprint(list(zip(dist, prev)))
+    # print("//")
 
     return dist[t] if dist[t] is not inf else -1
 
