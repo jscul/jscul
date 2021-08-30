@@ -12,7 +12,7 @@ print(count)
 sr = dnn_superres.DnnSuperResImpl_create()
 
 # Read image
-image = cv2.imread("./acozlzkz.png")
+image = cv2.imread("./test.jpg")
 
 # Read the desired model
 path = "EDSR_x4.pb"
@@ -31,4 +31,3 @@ print(c)
 
 # Save the image
 cv2.imwrite("./upscaled.png", result)
-frames = "153342"
