@@ -1,48 +1,32 @@
 # Uses python3
 
-import queue
+# https://www.youtube.com/watch?v=EFg3u_E6eHU&ab_channel=SpanningTree
+
+import heapq
 import sys
 from math import inf
 
 
 def dijkstra(adj, cost, s, t):
 
-    # if s == t:
-    #     return cost[s][adj[s].index(t)]
-
-    seen = set([s])
     dist = [inf] * len(adj)
     dist[s] = 0
-    prev = [None] * len(adj)
 
-    q = queue.Queue()
-    q.put(s)
+    pq = [(0, s)]
 
-    while not q.empty():
+    while len(pq) > 0:
+        d, v = heapq.heappop(pq)
 
-        n = q.get()
-        # print(n)
+        if d > dist[v]:
+            continue
 
-        edges = []
-        for i, adjacent in enumerate(adj[n]):
-            edges.append([adjacent, cost[n][i]])
+        for n in adj[v]:
+            weight = cost[v][adj[v].index(n)]
+            _d = d + weight
 
-        for i, edge in enumerate(edges):
-            d = dist[n] + edge[1]
-            if d < dist[edge[0]]:
-                dist[edge[0]] = d
-                edge[1] = d
-                prev[edge[0]] = n
-
-        edges = sorted(edges, key=lambda x: x[1])
-        for (e, w) in edges:
-            if not e in seen:
-                seen.add(e)
-                q.put(e)
-
-        # print(dist)
-
-    # print("//")
+            if _d < dist[n]:
+                dist[n] = _d
+                heapq.heappush(pq, (_d, n))
 
     return dist[t] if dist[t] is not inf else -1
 
