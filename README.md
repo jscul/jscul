@@ -12,10 +12,10 @@
 
 https://trekhleb.dev / https://brittanychiang.com/
 
-### I built a dynamically updating moon-calendar 🌙
+<!-- ### I built a dynamically updating moon-calendar 🌙
 
 [![ip service](https://moon-calendar-vr242ulasq-uw.a.run.app/)](https://moon-calendar-vr242ulasq-uw.a.run.app/)
-(may need a page refresh) [[moon-calendar]](https://github.com/jscul/moon-calendar) OpenCV, Flask, Google Cloud Run, skyview
+(may need a page refresh) [[moon-calendar]](https://github.com/jscul/moon-calendar) OpenCV, Flask, Google Cloud Run, skyview -->
 
 ### COMMANDS
 
