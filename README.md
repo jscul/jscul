@@ -23,4 +23,4 @@ Setup environment: `python3 -m venv env && source env/bin/activate && pip instal
 
 Merging directories: `rsync -a -P ./*/ /home/jscul/test`
 
-Starting Android emulator: `/home/$USER/Android/Sdk/emulator/emulator -memory 768 -avd Pixel_4_API_30`
+Start Android emulator: `/home/$USER/Android/Sdk/emulator/emulator -memory 768 -avd Pixel_4_API_30`
