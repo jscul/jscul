@@ -23,4 +23,6 @@ Setup environment: `python3 -m venv env && source env/bin/activate && pip instal
 
 Merging directories: `rsync -a -P ./*/ /home/jscul/test`
 
-Start Android emulator: `/home/$USER/Android/Sdk/emulator/emulator -memory 768 -avd Pixel_4_API_30`
+Start Android emulator: `/home/jscul/Android/Sdk/emulator/emulator -memory 768 -avd Pixel_4_API_30`
+
+FFmpeg join images to mp4: `ffmpeg -framerate 1 -i %d.png -c:v libx264 -r 1 -pix_fmt yuv420p out.mp4`
