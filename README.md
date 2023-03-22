@@ -6,11 +6,17 @@
 
 ### RANDOM LINKS 🔗
 
-[Random Photo Generator](https://picsum.photos/) / [Crontab](https://crontab.guru/#0_0_*_*_0) / [Graphs in Python](https://alexsocha.github.io/pynode/) / [Create Color Palette](https://coolors.co/generate) / [Light Pollution](https://darksitefinder.com/maps/world.html#4/39.00/-98.00) / [Stellarium](https://stellarium-web.org) / [The Useless Web](https://theuselessweb.com) / [Shader Sandbox](glslsandbox.com) / [Text Only Websites](https://sjmulder.nl/en/textonly.html)
+ - [Random Photo Generator](https://picsum.photos/)
+ - [Crontab](https://crontab.guru/#0_0_*_*_0)
+ - [Graphs in Python](https://alexsocha.github.io/pynode/)
+ - [Create Color Palette](https://coolors.co/generate)
+ - [Shader Sandbox](glslsandbox.com)
+ - [Text Only Websites](https://sjmulder.nl/en/textonly.html)
 
 ### PORTFOLIOS I LIKE
 
-https://trekhleb.dev / https://brittanychiang.com/
+ - https://trekhleb.dev
+ - https://brittanychiang.com/
 
 <!-- ### I built a dynamically updating moon-calendar 🌙
 
@@ -21,14 +27,14 @@ https://trekhleb.dev / https://brittanychiang.com/
 
 #### Hardware
 
-`s-tui`: Ubuntu tool for monitoring CPU usage and temperatures (can install `stress` to stress test as well).
+ - `s-tui`: Ubuntu tool for monitoring CPU usage and temperatures (can install `stress` to stress test as well)
 
 #### Python venv
 
-`python3 -m venv env && source env/bin/activate && pip install -r requirements.txt`
+ - `python3 -m venv env && source env/bin/activate && pip install -r requirements.txt`
 
 #### Misc
 
-Merging directories: `rsync -a -P ./*/ /home/jscul/test`
+ - `rsync -a -P ./*/ /home/jscul/test`: merge 2 directories
 
-FFmpeg join images to mp4: `ffmpeg -framerate 1 -i %d.png -c:v libx264 -r 1 -pix_fmt yuv420p out.mp4`
+ - `ffmpeg -framerate 1 -i %d.png -c:v libx264 -r 1 -pix_fmt yuv420p out.mp4`: join images to mp4
