@@ -23,6 +23,10 @@
 [![ip service](https://moon-calendar-vr242ulasq-uw.a.run.app/)](https://moon-calendar-vr242ulasq-uw.a.run.app/)
 (may need a page refresh) [[moon-calendar]](https://github.com/jscul/moon-calendar) OpenCV, Flask, Google Cloud Run, skyview -->
 
+### VIDEOS I LIKE
+
+ - [How React works under the hood](https://www.youtube.com/watch?v=KJP1E-Y-xyo)
+
 ### UTILS
 
 #### Hardware
