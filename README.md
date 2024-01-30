@@ -26,6 +26,7 @@
 ### VIDEOS I LIKE
 
  - [How React works under the hood](https://www.youtube.com/watch?v=KJP1E-Y-xyo)
+ - [t3ssel8r - Pixel Art Shader Updates](https://www.youtube.com/watch?v=ZsMHY4LDyRE)
 
 ### UTILS
 
