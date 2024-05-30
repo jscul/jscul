@@ -33,6 +33,7 @@
 #### Hardware
 
  - `s-tui`: Ubuntu tool for monitoring CPU usage and temperatures (can install `stress` to stress test as well)
+ - `systemctl reboot --firmware-setup`: Boot into UEFI.
 
 #### Python venv
 
